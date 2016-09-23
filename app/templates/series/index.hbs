@@ -1,0 +1,8 @@
+<h4>Series</h4>
+<ul>
+  {{#each model as |series|}}
+    <li>
+      {{link-to series.name "models.index" series}}
+    </li>
+  {{/each}}
+</ul>

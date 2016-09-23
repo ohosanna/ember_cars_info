@@ -1,0 +1,9 @@
+<h3>brands index</h3>
+<ul>
+  {{#each model as |brand|}}
+    <li>
+      {{link-to brand.name "factories.index" brand}}
+    </li>
+  {{/each}}
+</ul>
+{{outlet}}
